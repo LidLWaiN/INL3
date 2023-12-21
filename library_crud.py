@@ -22,7 +22,7 @@ def search_book(isbn_title: str, books: dict) -> str:
     return f"Book with {isbn_title} not found.\n"
 
 
-# Funtion som söker efter böcker från inmatad författare.
+# Funtion som söker efter böcker med hjälp av inmatad författare.
 def search_author(author: str, books: dict) -> str:
     found_books = []
     for isbn, book in books.items():
